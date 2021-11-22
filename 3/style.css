@@ -1,0 +1,83 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5em;
+    color: #777777;
+}
+.ptb-120 {
+    padding: 120px 0;
+}
+
+h3 {
+    font-size: 24px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    clear: both;
+    line-height: 1.2em;
+    color: #292929;
+    -webkit-font-smoothing: antialiased;
+    text-transform: capitalize;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.privacy-sidebar li:hover,
+.privacy-sidebar li.active {
+    color: #4db7fe;
+}
+.privacy-sidebar li i {
+    margin-right: 6px;
+}
+.privacy-sidebar li {
+    text-transform: capitalize;
+    padding: 6px 0;
+    transition: all 0.3s;
+}
+.theiaStickySidebar::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.privacy-content-area {
+    background-color: white;
+    margin-bottom: -30px;
+    border-left: 1px solid #e5e5e5;
+    padding-left: 30px;
+}
+.privacy-single-content-area {
+    margin-bottom: 30px;
+}
+.privacy-single-content-area .title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+p {
+    margin-bottom: 15px;
+    line-height: 1.8em;
+}
+.privacy-single-content-area .privacy-content-list {
+    width: 100%;
+    margin-top: 30px;
+}
+.privacy-single-content-area .privacy-content-list li i {
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    display: inline-block;
+    text-align: center;
+    background-color: #010a0f;
+    font-size: 10px;
+    color: white;
+    margin-right: 10px;
+}
