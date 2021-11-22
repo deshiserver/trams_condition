@@ -1,0 +1,373 @@
+/*-------------------------------------------------
+    [ ### Page info Content ]
+*/
+.terams-conditions-block .terams-conditions-content .info-block-list {
+    width: 78%;
+    padding-top: 30px;
+}
+
+@media only screen and (max-width: 1199px) {
+    .terams-conditions-block .terams-conditions-content .info-block-list {
+        width: 100%;
+    }
+}
+
+.terams-conditions-block .terams-conditions-content .info-block-list .single-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.terams-conditions-block .terams-conditions-content .info-block-list .single-list:nth-child(3n - 1) .no {
+    background-color: #00ebac;
+    border-color: #B2EEE7;
+}
+
+.terams-conditions-block .terams-conditions-content .info-block-list .single-list:nth-child(3n) .no {
+    background-color: #9657f6;
+    border-color: #D9C9FB;
+}
+
+.terams-conditions-block .terams-conditions-content .info-block-list .single-list .no {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 60px;
+    flex: 0 0 60px;
+    max-width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ff3a46;
+    color: white;
+    font-size: 26px;
+    font-family: "Raleway", sans-serif;
+    font-weight: lighter;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 3px solid #F4C2CE;
+}
+
+@media only screen and (max-width: 420px) {
+    .terams-conditions-block .terams-conditions-content .info-block-list .single-list .no {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 45px;
+        flex: 0 0 45px;
+        max-width: 45px;
+        height: 45px;
+        font-size: 20px;
+    }
+}
+
+.terams-conditions-block .terams-conditions-content .info-block-list .single-list .info {
+    padding-left: 20px;
+}
+
+@media only screen and (max-width: 420px) {
+    .terams-conditions-block .terams-conditions-content .info-block-list .single-list .info {
+        padding-left: 15px;
+    }
+}
+
+.terams-conditions-block .terams-conditions-content .heading {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.terams-conditions-block .terams-conditions-content p a {
+    color: #8b85fa;
+}
+
+.terams-conditions-block .terams-conditions-content ul {
+    width: 65%;
+}
+
+@media only screen and (max-width: 1199px) {
+    .terams-conditions-block .terams-conditions-content ul {
+        width: 100%;
+    }
+}
+
+.terams-conditions-block .terams-conditions-content ol li {
+    margin-bottom: 5px;
+    padding-left: 30px;
+    line-height: 1.7em;
+}
+
+.terams-conditions-block .terams-conditions-content ol.character {
+    list-style-type: lower-latin;
+    padding-left: 20px;
+}
+
+.terams-conditions-block .terams-conditions-content ol.character li {
+    padding-left: 0;
+}
+
+.terams-conditions-block .terams-conditions-content ol.character li:before {
+    content: " ";
+}
+
+.terams-conditions-block .terams-conditions-content .single-info-block-inner {
+    width: 65%;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 1199px) {
+    .terams-conditions-block .terams-conditions-content .single-info-block-inner {
+        width: 100%;
+    }
+}
+
+.terams-conditions-block .terams-conditions-content .single-info-block-inner .sub-heading {
+    font-size: 16px;
+    position: relative;
+    padding-left: 18px;
+}
+
+.terams-conditions-block .terams-conditions-content .single-info-block-inner .sub-heading:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 5.5px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #8b85fa;
+}
+
+.terams-conditions-content .heading-main,
+.privacy-policy-content .heading-main {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .terams-conditions-content .heading-main,
+    .privacy-policy-content .heading-main {
+        font-size: 24px;
+    }
+}
+
+.terams-conditions-content .thumb,
+.privacy-policy-content .thumb {
+    margin: 20px 0;
+}
+
+.terams-conditions-content .thumb img,
+.privacy-policy-content .thumb img {
+    border-radius: 7px;
+}
+
+.terams-conditions-content .thumb:last-child,
+.privacy-policy-content .thumb:last-child {
+    margin-bottom: 0;
+}
+
+.terams-conditions-content .thumb.mrb-10,
+.privacy-policy-content .thumb.mrb-10 {
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 991px) {
+
+    .terams-conditions-content .thumb.mrb-10,
+    .privacy-policy-content .thumb.mrb-10 {
+        margin-bottom: 30px;
+    }
+}
+
+.terams-conditions-content .heading,
+.privacy-policy-content .heading {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .terams-conditions-content .heading,
+    .privacy-policy-content .heading {
+        font-size: 22px;
+    }
+}
+
+.terams-conditions-content .sub-heading,
+.privacy-policy-content .sub-heading {
+    line-height: 1.25em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .terams-conditions-content .sub-heading,
+    .privacy-policy-content .sub-heading {
+        font-size: 18px;
+    }
+}
+
+.terams-conditions-content .single-info-block,
+.privacy-policy-content .single-info-block {
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .terams-conditions-content .single-info-block,
+    .privacy-policy-content .single-info-block {
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+
+    .terams-conditions-content .single-info-block,
+    .privacy-policy-content .single-info-block {
+        margin-bottom: 30px;
+    }
+}
+
+.terams-conditions-content .single-info-block:last-child,
+.privacy-policy-content .single-info-block:last-child {
+    margin-bottom: 0;
+}
+
+.terams-conditions-content .single-info-block .single-info-block-inner,
+.privacy-policy-content .single-info-block .single-info-block-inner {
+    margin-bottom: 30px;
+}
+
+.terams-conditions-content .single-info-block .single-info-block-inner:last-child,
+.privacy-policy-content .single-info-block .single-info-block-inner:last-child {
+    margin-bottom: 0;
+}
+
+.terams-conditions-content ol,
+.privacy-policy-content ol {
+    list-style: none;
+    padding-left: 0;
+    padding-top: 10px;
+}
+
+.terams-conditions-content ol:last-child,
+.privacy-policy-content ol:last-child {
+    margin-bottom: 0;
+}
+
+.terams-conditions-content ol li,
+.privacy-policy-content ol li {
+    margin-bottom: 25px;
+    padding-left: 40px;
+    position: relative;
+    line-height: 1.8em;
+    counter-increment: my-awesome-counter;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .terams-conditions-content ol li,
+    .privacy-policy-content ol li {
+        margin-bottom: 15px;
+    }
+}
+
+.terams-conditions-content ol li:last-child,
+.privacy-policy-content ol li:last-child {
+    margin-bottom: 0;
+}
+
+.terams-conditions-content ol li:before,
+.privacy-policy-content ol li:before {
+    position: absolute;
+    left: 0;
+    top: 0px;
+    content: "0"counter(my-awesome-counter) ".";
+}
+
+.terams-conditions-content ol li:nth-child(n + 10):before,
+.privacy-policy-content ol li:nth-child(n + 10):before {
+    content: counter(my-awesome-counter) ".";
+}
+
+.terams-conditions-content ul,
+.privacy-policy-content ul {
+    list-style: none;
+    padding-left: 0;
+    padding-top: 10px;
+}
+
+.terams-conditions-content ul li,
+.privacy-policy-content ul li {
+    margin-bottom: 15px;
+    padding-left: 25px;
+    position: relative;
+    line-height: 1.7em;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .terams-conditions-content ul li,
+    .privacy-policy-content ul li {
+        margin-bottom: 15px;
+    }
+}
+
+.terams-conditions-content ul li:before,
+.privacy-policy-content ul li:before {
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    left: 0;
+    top: 6px;
+    background-color: #212121;
+    border-radius: 35% 65% 64% 36%/50% 45% 55% 50%;
+}
+
+.terams-conditions-content ul li:nth-child(3n-2):before,
+.privacy-policy-content ul li:nth-child(3n-2):before {
+    background: -webkit-linear-gradient(top, rgba(247, 74, 5, 0.4), #f74a05);
+    background: linear-gradient(-180deg, rgba(247, 74, 5, 0.4), #f74a05);
+}
+
+.terams-conditions-content ul li:nth-child(3n-1):before,
+.privacy-policy-content ul li:nth-child(3n-1):before {
+    background: -webkit-linear-gradient(left, rgba(39, 132, 138, 0.4), #27848a);
+    background: linear-gradient(90deg, rgba(39, 132, 138, 0.4), #27848a);
+}
+
+.terams-conditions-content ul li:nth-child(3n):before,
+.privacy-policy-content ul li:nth-child(3n):before {
+    background: -webkit-linear-gradient(135deg, rgba(103, 196, 67, 0.4), #67c443);
+    background: linear-gradient(-45deg, rgba(103, 196, 67, 0.4), #67c443);
+}
+
+.terams-conditions-content ul li:last-child,
+.privacy-policy-content ul li:last-child {
+    margin-bottom: 0;
+}
+
+.privacy-policy-block .sidebar-items {
+    padding-left: 0;
+    border-left: 0px solid;
+}
+.heading {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.25em;
+    margin-bottom: 15px;
+}
+.ptb-120 {
+    padding: 120px 0;
+}
