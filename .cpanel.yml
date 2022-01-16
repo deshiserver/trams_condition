@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/trialrr/public_html/privacy/
+    - export REPOPATH=/home/trialrr/privacy/
+    - rsync -aP --exclude '.env' ${REPOPATH}/ ${DEPLOYPATH}
